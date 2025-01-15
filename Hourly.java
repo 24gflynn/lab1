@@ -18,6 +18,6 @@ public class Hourly extends Worker {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return ("Name: " + getName() + " " + getLName() + "\n" + "Annual Hours: " + hours + "\n" + "Hourly Wage: " + wage);
+		return (super.toString() + "\n" + "Annual Hours: " + hours + "\n" + "Hourly Wage: " + wage);
 	}
 }
