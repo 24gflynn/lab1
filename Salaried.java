@@ -16,6 +16,6 @@ public class Salaried extends Worker {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return ("Name: " + getName() + " " + getLName() + "\n" + "Annual Salary: " + salary);
+		return (super.toString() + "\n" + "Annual Salary: " + salary);
 	}
 }
